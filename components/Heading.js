@@ -12,7 +12,7 @@ const Heading = () => {
                 <Link href="/"><h1 className="pointer-heading">COVID-19 Statistics</h1></Link>
             </div>
             <div className="heading-right-div">
-                <Link href="faq">
+                <Link href="frequently-asked-questions">
                     <a className="link">FAQ</a>
                 </Link>
             </div>
