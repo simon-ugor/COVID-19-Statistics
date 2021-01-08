@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://covidstatistics.online/</loc>
+  <lastmod>2021-01-08T03:13:14+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://covidstatistics.online/countries-stats</loc>
+  <lastmod>2021-01-08T03:13:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://covidstatistics.online/faq</loc>
+  <lastmod>2021-01-08T03:13:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://covidstatistics.online/aboutUs</loc>
+  <lastmod>2021-01-08T03:13:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://covidstatistics.online/contactUs</loc>
+  <lastmod>2021-01-08T03:13:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://covidstatistics.online/privacyPolicy</loc>
+  <lastmod>2021-01-08T03:13:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://covidstatistics.online/termsAndConditions</loc>
+  <lastmod>2021-01-08T03:13:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://covidstatistics.online/covid19-symptoms</loc>
+  <lastmod>2021-01-08T03:13:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covidstatistics.online/coronavirus-cases-worldwide-today</loc>
+  <lastmod>2021-01-08T03:13:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covidstatistics.online/how-covid-test-is-done</loc>
+  <lastmod>2021-01-08T03:13:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covidstatistics.online/does-covid19-test-hurt</loc>
+  <lastmod>2021-01-08T03:13:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covidstatistics.online/faq2</loc>
+  <lastmod>2021-01-08T03:13:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
