@@ -45,25 +45,27 @@ const countriesStats = ({data}) => {
                                 <div className="country-main-div">
                                     <h1 className="country-name">{d.name}</h1>
                                 </div>
-                                <div className="data-main-div">
-                                    <div className="data-div">
-                                        <h1>Confirmed</h1>
-                                        <h1>{new Intl.NumberFormat('fr-FR').format(d.latest_data.confirmed).split(",").join(" ")}</h1>
-                                    </div>
+                                <div className="data-mobile-div">
+                                    <div className="data-main-div">
+                                        <div className="data-div">
+                                            <h1>Confirmed</h1>
+                                            <h1>{new Intl.NumberFormat('fr-FR').format(d.latest_data.confirmed).split(",").join(" ")}</h1>
+                                        </div>
 
-                                    <div className="data-div">
-                                        <h1>Critical</h1>
-                                        <h1>{new Intl.NumberFormat('fr-FR').format(d.latest_data.critical).split(",").join(" ")}</h1>
-                                    </div>
+                                        <div className="data-div">
+                                            <h1>Critical</h1>
+                                            <h1>{new Intl.NumberFormat('fr-FR').format(d.latest_data.critical).split(",").join(" ")}</h1>
+                                        </div>
 
-                                    <div className="data-div">
-                                        <h1>Deaths</h1>
-                                        <h1>{new Intl.NumberFormat('fr-FR').format(d.latest_data.deaths).split(",").join(" ")}</h1>
-                                    </div>
+                                        <div className="data-div">
+                                            <h1>Deaths</h1>
+                                            <h1>{new Intl.NumberFormat('fr-FR').format(d.latest_data.deaths).split(",").join(" ")}</h1>
+                                        </div>
 
-                                    <div className="data-div">
-                                        <h1>Recovered</h1>
-                                        <h1>{new Intl.NumberFormat('fr-FR').format(d.latest_data.recovered).split(",").join(" ")}</h1>
+                                        <div className="data-div">
+                                            <h1>Recovered</h1>
+                                            <h1>{new Intl.NumberFormat('fr-FR').format(d.latest_data.recovered).split(",").join(" ")}</h1>
+                                        </div>
                                     </div>
                                 </div>
                             </>

@@ -6,6 +6,11 @@
     padding: 0;
   }
   
+  .App{
+    width: 100vw;
+    height: 100vh;
+  }
+
   .bg-div {
     position: absolute;
     top: 0;
@@ -259,3 +264,170 @@
     background-color: rgba(0, 0, 0, 0.3);
   }
 
+  /* Mobile Div */
+
+  .mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: brown;
+    display: none;
+  }
+
+  .heading-mobile-main-div {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    border-bottom: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .heading-mobile-div {
+    width: 70vw;
+    height: 10vh;
+    font-family: medium;
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 4px solid white;
+    color: white;
+  }
+
+  .menu-mobile-div {
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-button {
+    background-color: white;
+    padding: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: regular;
+  }
+
+  .mobile-button:active {
+    background-color: gainsboro;
+  }
+
+  .footer-mobile-main-div {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    border-top: 4px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .mobile-link {
+    color: white;
+    font-family: regular;
+    font-size: 1.5vh;
+  }
+
+  /* Media Queries */
+
+  @media only screen and (orientation:portrait) {
+
+
+
+
+
+    .heading-main-div {
+      font-size: 1vh;
+    }
+
+    .updated-main-div {
+      font-size: 1vh;
+    }
+
+    .footer-main-div {
+      font-size: 1vh;
+    }
+
+    .data-main-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .data-div {
+      font-size: 1vh;
+      border: 0;
+      border-radius: 0px;
+      padding: none;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50vw;
+      height: 1vh;
+      border-radius: 10px;
+    }
+
+    .text-div {
+      text-align: center;
+    }
+
+    .buttons-top-div {
+      flex-direction: column;
+    }
+
+    .faq-button {
+      width: 95vw;
+      font-size: 1.5vh;
+      height: 11vh;
+      margin: 1vh;
+    }
+
+    .faq-title {
+      font-size: 2vh;
+    }
+
+    .text-div {
+      overflow: scroll;
+      width: 100vw;
+      height: 60vh;
+      font-size: 3vh;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .select-box {
+      width: 70vw;
+    }
+
+    .choose-country {
+      font-size: 3vh;
+    }
+
+    .select-div {
+      flex-direction: column;
+    }
+
+    .country-name {
+      font-size: 3vh;
+      margin-top: 1vh;
+    }
+
+    .data-mobile-div {
+      background-color: aliceblue;
+      height: 55vh;
+      overflow: scroll;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+  }
